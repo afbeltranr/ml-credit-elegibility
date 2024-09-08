@@ -1,6 +1,5 @@
 
-
-![Build Status](https://github.com/afbeltranr/ml-credit-eligibility/workflows/Python%20application/badge.svg)
+[![Python application](https://github.com/afbeltranr/ml-credit-elegibility/actions/workflows/python-app.yml/badge.svg)](https://github.com/afbeltranr/ml-credit-elegibility/actions/workflows/python-app.yml)
 
 
 # Credit Eligibility Prediction using Logistic Regression
