@@ -1,3 +1,7 @@
+
+[![Python application](https://github.com/afbeltranr/ml-credit-elegibility/actions/workflows/python-app.yml/badge.svg)](https://github.com/afbeltranr/ml-credit-elegibility/actions/workflows/python-app.yml)
+
+
 # Credit Eligibility Prediction using Logistic Regression
 
 This project demonstrates the process of predicting whether a bank client is eligible for credit approval. We use a Logistic Regression model to handle binary outcomes such as "approved" or "not approved".
