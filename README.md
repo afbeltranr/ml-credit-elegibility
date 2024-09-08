@@ -1,6 +1,6 @@
-# Credit Eligibility Prediction using Logistic Regression
 
-![Build Status](https://github.com/afbeltranr/ml-credit-eligibility-logreg/workflows/Python%20application/badge.svg)
+
+![Build Status](https://github.com/afbeltranr/ml-credit-eligibility/workflows/Python%20application/badge.svg)
 
 
 # Credit Eligibility Prediction using Logistic Regression
