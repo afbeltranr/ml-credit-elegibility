@@ -7,7 +7,7 @@
 
 This project demonstrates the process of predicting whether a bank client is eligible for credit approval. We use a Logistic Regression model to handle binary outcomes such as "approved" or "not approved".
 
-You can view the full analysis in the [Jupyter Notebook](./report.ipynb).
+You can view the full analysis in the [Jupyter Notebook](./credit_elegibility_logreg.ipynb).
 
 ## Methods
 - **Data preprocessing**: Creation of suitable variables that are distributed considering the underlying economic mechanisms and real-world phenomena that govern how wealth, income, and financial behavior are distributed. Distribution assessment using visualization and detection of correlated variables to drop and avoid multicollinearity.
