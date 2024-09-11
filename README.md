@@ -1,10 +1,16 @@
 
-![Python application](https://github.com/afbeltranr/ml-credit-elegibility/workflows/Python%20application/badge.svg)
 
 
-# Credit Eligibility Prediction using Logistic Regression
+
+# Client Eligibility Prediction using Logistic Regression
 
 This project demonstrates the process of predicting whether a bank client is eligible for credit approval. We use a Logistic Regression model to handle binary outcomes such as "approved" or "not approved".
+
+This project is also a scaffolding for continuous integration using GitHub Actions, which runs the model training and evaluation pipeline on every push to the repository.
+
+This badge: ![Python application](https://github.com/afbeltranr/ml-credit-elegibility/workflows/Python%20application/badge.svg) indicates the status of the GitHub Actions workflow.
+
+The metrics shown on this readme file are obtained from the latest run of the GitHub Actions workflow, so the model is ready for deployment.
 
 You can view the full analysis in the [Jupyter Notebook](./credit_elegibility_logreg.ipynb).
 
