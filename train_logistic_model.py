@@ -247,3 +247,35 @@ plt.ylabel('True Positive Rate')
 plt.title('ROC Curve')
 plt.legend(loc="lower right")
 plt.show()
+
+
+
+#-------------------------------------------
+# Update the README file
+readme_path = 'README.md'
+with open(readme_path, 'r') as f:
+    lines = f.readlines()
+
+
+
+    
+
+# Update the README 'Results' section with the new metrics
+new_lines = []
+in_results_section = False
+for line in lines:
+    if '## Results' in line:
+        in_results_section = True
+        new_lines.append(line)
+        new_lines.append(f'- **KS Statistic**: `{ks_stat}`\n')
+        new_lines.append(f'- **AUC of ROC**: `{auc}`\n')
+        new_lines.append(f'- **PSI**: `{psi_value}`\n')
+    elif in_results_section and line.startswith('##'):
+        in_results_section = False
+        new_lines.append(line)
+    elif not in_results_section:
+        new_lines.append(line)
+
+# Write the updated content back to the README
+with open(readme_path, 'w') as f:
+    f.writelines(new_lines)

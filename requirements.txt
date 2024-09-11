@@ -1,0 +1,12 @@
+pylint               # For code quality checks
+pytest               # For unit testing                         
+click                # For creating command-line interfaces
+black                # For code formatting
+pytest-cov           # For test coverage
+pandas               # For data manipulation and creating the data matrix
+numpy                # For numerical operations and generating random variables
+scikit-learn         # For logistic regression, cross-validation, and metrics like AUC
+matplotlib           # For plotting histograms and box plots
+seaborn              # For enhanced plotting, such as distribution plots and heatmaps
+scipy                # For statistical operations like calculating the KS statistic
+
