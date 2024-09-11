@@ -10,7 +10,7 @@ This project is also a scaffolding for continuous integration using GitHub Actio
 
 This badge: ![Python application](https://github.com/afbeltranr/ml-credit-elegibility/workflows/Python%20application/badge.svg) indicates the status of the GitHub Actions workflow.
 
-The metrics shown on this readme file are obtained from the latest run of the GitHub Actions workflow, so the model is ready for deployment.
+The metrics shown on this readme file are updated every time the workflow runs, ensuring continuous integration and delivery of the model, so in the future you want to use this scaffolding to analyze different data, you have a reliable and automated way to do it.
 
 You can view the full analysis in the [Jupyter Notebook](./credit_elegibility_logreg.ipynb).
 
